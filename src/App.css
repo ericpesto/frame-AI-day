@@ -1,6 +1,6 @@
 img {
   width: 100%;
-  max-height: auto;
+  height: auto;
   bottom: 0;
   left: 0;
   margin: auto;
@@ -10,4 +10,10 @@ img {
   top: 0;
   -o-object-fit: contain;
   object-fit: contain;
+  z-index: 99;
+}
+
+button {
+  z-index: 999;
+  position: fixed;
 }
