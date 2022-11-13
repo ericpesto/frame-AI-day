@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { FullScreen, useFullScreenHandle } from "react-full-screen";
+import "./App.css";
 
 function App() {
+  const handle = useFullScreenHandle();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <button onClick={handle.enter}>Enter fullscreen</button>
+      <FullScreen handle={handle}>
+        <img
+          src="https://drive.google.com/uc?export=view&id=11AH-SHVgdUqLgmFSzCeEA5gHwSjoHeO0"
+          alt="prompt"
+        />
+      </FullScreen>
+    </>
   );
 }
 
