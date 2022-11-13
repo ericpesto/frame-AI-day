@@ -10,10 +10,4 @@ img {
   top: 0;
   -o-object-fit: contain;
   object-fit: contain;
-  z-index: 99;
-}
-
-button {
-  z-index: 999;
-  position: fixed;
 }
