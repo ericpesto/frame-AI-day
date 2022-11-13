@@ -15,11 +15,12 @@ function App() {
   return (
     <>
       {/* <meta http-equiv="refresh" content="5"></meta> */}
-      <button onClick={handle.enter}>Enter fullscreen</button>
+      {/* <button onClick={handle.enter}>Enter fullscreen</button> */}
       <FullScreen handle={handle}>
         <img
           src="https://drive.google.com/uc?export=view&id=14aBeRw3tZ5waF870NN_CaCCOPYGkLfya"
           alt="prompt"
+          onClick={handle.enter}
         />
       </FullScreen>
     </>
