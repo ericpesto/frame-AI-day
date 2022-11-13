@@ -10,7 +10,7 @@ function App() {
 
   setTimeout(() => {
     refreshPage();
-  }, 6000);
+  }, 1200000);
 
   return (
     <>
