@@ -18,7 +18,7 @@ function App() {
       <button onClick={handle.enter}>Enter fullscreen</button>
       <FullScreen handle={handle}>
         <img
-          src="https://drive.google.com/uc?export=view&id=11AH-SHVgdUqLgmFSzCeEA5gHwSjoHeO0"
+          src="https://drive.google.com/uc?export=view&id=14aBeRw3tZ5waF870NN_CaCCOPYGkLfya"
           alt="prompt"
         />
       </FullScreen>
