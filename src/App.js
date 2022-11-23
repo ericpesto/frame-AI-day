@@ -4,13 +4,13 @@ import "./App.css";
 function App() {
   const handle = useFullScreenHandle();
 
-  const refreshPage = () => {
-    window.location.reload(false);
-  };
+  // const refreshPage = () => {
+  //   window.location.reload(false);
+  // };
 
-  setTimeout(() => {
-    refreshPage();
-  }, 28800000);
+  // setTimeout(() => {
+  //   refreshPage();
+  // }, 28800000);
 
   return (
     <>
